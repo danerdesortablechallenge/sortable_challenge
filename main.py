@@ -68,6 +68,8 @@ class Index:
         return self.index.get(item,[])
 
 
+########### GLOBAL FUNCTIONS ############
+
 ##
 # split text to tokens/words
 def split_to_words(text):
@@ -124,6 +126,10 @@ def split_to_words(text):
         words = spl(words, sep)
 
     return words
+
+
+########### MAIN ############
+
 
 def __main__():
 
